@@ -1,0 +1,14 @@
+.text-center{
+text-align: center;
+}
+
+.btn.btn-primary.btn-floating.m-1 {
+    font-size: 50px;
+    background-color: white;
+}
+.text-center.p-3{
+color: black;
+}
+.text-black {
+    color: black;
+}

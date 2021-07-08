@@ -1,0 +1,19 @@
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#contactform {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact {
+    width: 800px;
+}

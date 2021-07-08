@@ -1,0 +1,14 @@
+.jumbotron {
+    position: relative;
+    z-index: 1;
+    background: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80")center bottom;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    flex-direction: column;
+    padding-top: 250px;
+}

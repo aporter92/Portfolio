@@ -1,0 +1,7 @@
+.navbar {
+    text-align: right;
+}
+.navbarNav{
+    display: flex;
+    justify-content: flex-end;
+}

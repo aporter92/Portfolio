@@ -1,0 +1,19 @@
+.container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+h1.about-me {
+  position: relative;
+  text-align: center;
+}
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  object-fit: cover;
+}
+.col-6 {
+  vertical-align: middle;
+  position: relative;
+  top: 60px;
+  left: 50px;
+}

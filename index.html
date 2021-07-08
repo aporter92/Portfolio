@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel ="stylesheet" href= "css/main.css">
+    <script src="https://kit.fontawesome.com/0b1a8925df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <!--? NAVBAR -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ? HEADER -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class ="display-4">Anne Porter</h1>
+      <p class = "lead">Web Developer</p>
+    </div>
+  </div>
+</br>
+
+
+  <!-- ? ABOUT -->
+  <div class = "container">
+    <h1 class = "about-me" id = "about-me">About Me</h1>
+  </br>
+      <div class ="row">
+          <div class = "col-3">
+            <p> <img src= "assets/IMG_2281 copy.JPG" alt = "Photo of Anne">
+            </p>
+          </div>
+        <div class = "col-6">
+          <p>Hello!  My name is Anne Porter and I am currently a student at <a href = "https://elevenfifty.org">Eleven Fifty Academy.</a>  I am learning how to build beautiful, functional web pages and applications using Javascript, HTML, and CSS.  Thus far, I love it.  Previously, I worked in education but after some time found that I needed something more.  I wanted a career that would combine my creative mind with my love for continued learning and push me to enhance my problem solving skills. If you want to chat more please shoot me a message at the bottom of the page, I'd love to hear from you.  Alternatively, you can find my code on Github, learn more about my experience on Linkedin, or <a href = "assets/Porter, Anne-Resume copy.zip">download my resume.</a>  
+          </p>
+        </div>
+    </div>
+  </div>
+<hr>
+  <!--Projects -->
+  <!-- <section id ="projects" class = "section-padding">
+    <div class = "container text-center">
+    
+  </div> -->
+  <div class = "containerproject">
+    <div class = "row-no-gutters">
+      <h1> Recent Projects</h1>
+          <!-- first item -->
+          <div class="col-6 col-sm-3">
+          <a class = "portfolio box" href = "https://aporter92.github.io/Static-Layout/" title = "Static Layout">
+            <img class = "img-fluid" src = "assets/hulu.png" alt="Static" style = "width:100%">
+            <div class = "image__overlay image-overlay-blur">
+              <div class = "image-title">Static Layout</div>
+                <p class = "image desciption">static re-creation of the Hulu webpage</p>
+            </div>
+            </a>
+          </div>
+          <!-- second item -->
+          <div class="col-6 col-sm-3 second">
+            <a class = "portfolio box box" href = "https://aporter92.github.io/API-1/" title = "API">
+              <img class = "img-fluid ghibli" src = "assets/ghibli2.jpeg" alt= "API" style = "width:100%">
+              <!--here--> <div class = "image__overlay image-overlay-blur">
+                <div class = "image-title">Studio Ghibli API</div>
+                <p class = "image desciption">fetching and displaying data from an API</p>
+              </div>
+              <!--here -->
+              </a>
+            </div>
+          
+          <!-- Force next columns to break to new line -->
+          <div class="w-100"></div>
+          <!-- third item -->
+          <div class="col-6 col-sm-3 third">
+            <a class = "portfolio box" href = "https://codepen.io/anne_p/pen/YzZdjGW" title = "creature">
+              <img class = "img-fluid" src = "assets/creature.png" alt= "creature" style = "width:100%">
+              <div class = "image__overlay image-overlay-blur">
+                <div class = "image-title">CSS creature</div>
+                <p class = "image desciption">doodle on codepen</p>
+              </div>
+            </a>
+            </div>
+            <!-- fourth item -->
+          <div class="col-6 col-sm-3 fourth">
+            <a class = "portfolio box" href = "https://giphy-api-87d0a.firebaseapp.com/" title = "giphy">
+          <img class = "img-fluid" src = "assets/giphy.gif" alt= "giphy" style = "width:100%">
+          <div class = "image__overlay image-overlay-blur">
+            <div class = "image-title">Giphy API</div>
+            <p class = "image desciption">fetching data using a key</p>
+          </div>   
+        </a>  
+            </div>
+  </div>
+  </div>
+  </section>
+</br>
+<hr>
+  <!-- ? CONTACT -->
+  <form id ="contactform" action = "https://formspree.io/f/moqylnoq" method = "POST">
+    <h2>Contact Me</h2>
+  </br>
+  <div class="contact">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" name = "email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  </br>
+  <div class="contact">
+    <label for="exampleFormControlInput2" class="form-label">Name</label>
+    <input type="name" name = "name" class="form-control" id="exampleFormControlInput2" placeholder="name">
+  </div>
+</br>
+  <div class="contact">
+    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+    <textarea class="form-control" name = "name" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</br>
+  <div class = "contact">
+  <button type="submit" class="btn btn-primary">Send</button>
+</div>
+</form>
+
+<!-- Footer with links to other pages -->
+<footer class="text-center text-white" >
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Linkedin -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #2b7ab7;"
+        href="https://linkedin.com/in/anneporter1"
+        role="button">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    
+      <!-- Github -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #333333;"
+        href="https://github.com/aporter92"
+        role="button">
+        <i class="fab fa-github"></i>
+      </a>
+
+    </section>
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-black" href="">Anne Porter</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>
