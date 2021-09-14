@@ -25,24 +25,37 @@
     height: 300px;
     object-fit: cover;
 }
+.first{
+    position: relative;
+    left: 4%;
+    }
 .second{
 position: relative;
-left: 35px;
+left: 23px;
 }
 .third {
     position: relative;
-    top: 50px;
+    left: 9px;
 }
 .fourth {
 position: relative;
-left: 35px;
+/* left: -127px; */
+left: 4%;
 top:50px;
 }
 
-.second {
+.fifth {
 position: relative;
-/* width: 400px; */
+left: 23px;
+top:50px;
 }
+
+.sixth{
+position: relative;
+top: 50px;
+left: 9px;
+}
+
 
 .ghibli {
     display: block;
