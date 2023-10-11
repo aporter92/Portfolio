@@ -7,6 +7,10 @@
     /* align-items: center; */
     justify-content:center
 }
+h1.projects {
+  position: relative;
+  text-align: center;
+}
 .col-6.col-sm-3 {
     display: inline-block;
     margin: 5px;
