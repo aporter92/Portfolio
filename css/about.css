@@ -7,14 +7,11 @@ h1.about-me {
   text-align: center;
 }
 img {
-  vertical-align: middle;
+/*   vertical-align: middle; */
+  vertical-align: baseline;
   max-width: 100%;
   object-fit: cover;
 }
-.img-resize {
-    width: 200px; /* You can set the dimensions to whatever you want */
-    height: 200px;
-    object-fit: cover;
 }
 .col-6 {
   vertical-align: middle;
