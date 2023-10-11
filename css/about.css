@@ -7,8 +7,8 @@ h1.about-me {
   text-align: center;
 }
 img {
-/*   vertical-align: middle; */
-  vertical-align: baseline;
+  vertical-align: middle;
+  width: 200px;
   max-width: 100%;
   object-fit: cover;
 }
