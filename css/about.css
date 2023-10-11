@@ -13,6 +13,9 @@ img {
   object-fit: cover;
 }
 }
+.col-3 {
+  vertical-align: middle;
+}
 .col-6 {
   vertical-align: middle;
   position: relative;
